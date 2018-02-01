@@ -1,0 +1,255 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #fff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: 400px;
+    min-width: 320px;
+}
+
+#header h1{
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -60px 0 0 -125px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+a{
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+a:hover{
+   color:#fff; 
+}
+
+.portf{
+    color: black;
+}
+
+.portf:hover{
+    color: black;
+}
+
+img{
+    
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    position: relative;
+    padding: 90px 0;
+}
+
+/*===header===*/
+
+#header{
+    background: url(../image/img1.jpg) center;
+    background-size: cover;
+    height: 100%;
+}
+
+.section-table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.section-row{
+    display: table-row;
+}
+
+.section-cell{
+    display: table-cell;
+}
+
+/*===speakers===*/
+
+#speakers1{
+    padding: 90px 0;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+#speakers2{
+    background-color: black;
+    color: white;
+    padding: 90px 0;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+#speaker3{ 
+    background: url(../image/img6.jpg) center no-repeat; 
+    background-size: cover; 
+    height: 100%; 
+    min-height: 500px; 
+    color: white;
+    font-size: 20px;
+}
+
+.section-table{ 
+    display: table; 
+    height: 100%; 
+    width: 100%; 
+} 
+
+.section-row{ 
+    display: table-row; 
+} 
+
+.section-cell{ 
+    display: table-cell; 
+    text-align: center; 
+    vertical-align: middle; 
+} 
+
+.section-center{ 
+    max-width: 550px; 
+    display: inline-block; 
+}
+
+#speakers4{
+    padding: 90px 0;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+.container-fluid{
+    color: rgba(8, 0, 0, 0.719);
+    text-align: center;
+}
+
+.form{
+    align: center;
+}
+
+.nav{
+    position: relative;
+    left:-65px;
+    bottom:80px;
+    text-align: right;
+    vertical-align: top;
+}
+/*===Формы/Контакты===*/
+.container-fluid {
+    max-width:1170px;
+    margin:0 auto;
+    width:100%
+}
+
+.form-control {
+    border-radius:0;
+    height:44px;
+    box-shadow:none
+}
+
+.contact {
+    width:50%;
+    min-width:300px;
+    margin:0 auto
+}
+
+.btn-default{
+    color: #fff;
+    background-color: #233;
+}
+
+h4{
+    color: white;
+}
+
+.cbs{
+    color: black;
+}
+
+.vr{
+    margin-right: 50px;
+}
+
+.vr2{
+    margin-right: 100px;    
+}
+
+.vr3{
+    margin-right: 70px;
+}
+
+.importf{
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #speaker3{
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 380px) {
+    #speaker3{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #speaker3{
+        background: url(../image/img5.jpg) center no-repeat;
+       font-size: 18px;
+    }
+}
